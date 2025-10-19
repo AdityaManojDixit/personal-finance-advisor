@@ -201,7 +201,7 @@ export default function Home() {
         {localMessages.length === 0 ? (
           <Flex direction="column" align="center" justify="center" h="100%" py={8}>
             <VStack spacing={6} mb={8}>
-              <Heading size="lg" textAlign="center">Welcome to FinanceGPT</Heading>
+              <Heading size="lg" textAlign="center">Welcome to Wealth Wise</Heading>
               <TypewriterText
                 text="How can I help you today?"
                 fontSize="xl"

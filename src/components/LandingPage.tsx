@@ -271,7 +271,7 @@ export default function LandingPage() {
               fontSize={{ base: 'md', md: 'lg' }}
               mb={6}
             >
-              AI Powered FinanceGPT helps you take control of your financial future. Get personalized advice,
+              AI Powered Wealth Wise helps you take control of your financial future. Get personalized advice,
               set goals, and check your financial snapshot with the power of artificial intelligence.
             </Text>
             <Link href="/register" passHref>
@@ -574,7 +574,7 @@ export default function LandingPage() {
       </Container>
 
       {/* Reviews Section */}
-      <Container maxW={'7xl'} py={16}>
+      {/* <Container maxW={'7xl'} py={16}>
         <MotionBox
           variants={fadeInUp}
           initial="initial"
@@ -630,10 +630,10 @@ export default function LandingPage() {
             </AnimatePresence>
           </Swiper>
         </Box>
-      </Container>
+      </Container> */}
 
       {/* Stats Section */}
-      <Box bgGradient={bgGradient} pt={10} pb={20} mb={0}>
+      {/* <Box bgGradient={bgGradient} pt={10} pb={20} mb={0}>
         <Container maxW={'7xl'}>
           <VStack spacing={4} mb={16} textAlign="center">
             <Heading 
@@ -709,7 +709,7 @@ export default function LandingPage() {
             ))}
           </SimpleGrid>
         </Container>
-      </Box>
+      </Box> */}
     </Box>
   );
 }

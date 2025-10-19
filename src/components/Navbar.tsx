@@ -62,7 +62,7 @@ export default function NavBar() {
           color={useColorModeValue('gray.800', 'white')}
           fontWeight={'bold'}
         >
-          FinanceGPT
+          Wealth Wise
         </Heading>
         <HStack spacing={4}>
           {user && (
